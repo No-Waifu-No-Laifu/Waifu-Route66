@@ -1,18 +1,16 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
 
-/*
- * Welcome class is a default controller in a subfolder (bravo).  
+/**
+ * Force class is a controller in a sub-folder (delta).
  * The target link is handled by a conventional controller
- * ie. controllers/bravo/Welcome::index()
- * 
+ * ie. controllers/delta/Force::index()
+ *
  * It inherits the Application class and uses the inherited show method
- * with a value of 2.  
+ * with a value of 4.  
  * 
  *  * @author steve
- * 
  */
-class Welcome extends Application
+class Force extends Application
 {
 
 	function __construct()
@@ -25,7 +23,7 @@ class Welcome extends Application
 	 */
 	public function index()
 	{
-            $this->show(2);
+            $this->show(4);
 	}
 
 }
