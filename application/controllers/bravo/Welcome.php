@@ -20,9 +20,6 @@ class Welcome extends Application
 		parent::__construct();
 	}
 
-	/**
-	 * Homepage for our app
-	 */
 	public function index()
 	{
             $this->show(2);

@@ -1,18 +1,17 @@
 <?php
 
 /**
- * Force class is a controller in a sub-folder (delta).
+ * Tango class remapping of Foxtrot.
  * The target link is handled by a conventional controller
- * ie. controllers/delta/Force::index()
+ * ie. controllers/Tango::index()
  *
  * It inherits the Application class and uses the inherited show method
- * with a value of 4.  
+ * with a value of 5.  
  * 
  *  * @author steve
  */
-class Force extends Application
+class Tango extends Application
 {
-
 	function __construct()
 	{
 		parent::__construct();
@@ -20,7 +19,7 @@ class Force extends Application
 
 	public function index()
 	{
-            $this->show(4);
+            $this->show(5);
 	}
 
 }
