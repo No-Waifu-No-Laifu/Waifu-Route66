@@ -7,7 +7,8 @@
  */
 
 /**
- * Description of Juliet
+ * Description of Juliet.  It is a service controller that returns JSON data
+ * instead of an HTML page.  
  *
  * @author steve
  */
