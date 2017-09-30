@@ -57,3 +57,4 @@ $route['i/(.*)'] = 'golf';
 $route['bananas/(:any)'] = function($verb) {
     return 'golf';
 };
+$route['show/(:any)'] = 'welcome/show/$1';
